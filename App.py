@@ -4,7 +4,7 @@ import pickle
 import streamlit as st
 
 # Load the trained SVM modelC:\Users\user\Desktop\webb
-loadedModel = pickle.load(open('C:/Users/user/Desktop/webb/SVM_customers_prediction.sav', 'rb'))
+loadedModel = pickle.load(open('SVM_customers_prediction.sav', 'rb'))
 
 def customers_predictions(input_data):
     # Convert input data to numpy array and reshape for prediction
@@ -88,4 +88,5 @@ def main():
         st.success(customer_status)
 
 if __name__ == '__main__':
+
     main()
