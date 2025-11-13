@@ -19,7 +19,7 @@ def customers_predictions(input_data):
         return 'The client is likely to stay !!!'
 
 def main():
-    st.title(Client Attrition App')
+    st.title('Client Attrition App')
 
     # Define custom mappings
     education_map = {'Uneducated': 0, 'High School': 1, 'College': 2, 'Graduate': 3, 'Post-Graduate': 4, 'Doctorate': 5, 'Unknown': -1}
@@ -90,5 +90,6 @@ def main():
 if __name__ == '__main__':
 
     main()
+
 
 
